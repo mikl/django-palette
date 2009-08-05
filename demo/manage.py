@@ -1,5 +1,13 @@
 #!/usr/bin/env python
+import sys
+from os.path import abspath, dirname, join
 from django.core.management import execute_manager
+
+# Since the palette app is located in the parent directory, we'll have
+# to add that to the PYTHONPATH
+PROJECT_ROOT = abspath(dirname(__file__))
+sys.path.insert(0, join(PROJECT_ROOT, "../"))
+
 try:
     import settings # Assumed to be in the same directory.
 except ImportError:
