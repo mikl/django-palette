@@ -47,7 +47,7 @@ class Migration:
         'palette.palette': {
             'description': ('django.db.models.fields.TextField', [], {'null': 'True', 'blank': 'True'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'slug': ('AutoSlugField', ["_('slug')"], {'populate_from': "'title'"}),
+            'slug': ('django_extensions.db.models.AutoSlugField', ["_('slug')"], {'populate_from': "'title'"}),
             'title': ('django.db.models.fields.CharField', [], {'max_length': '255'})
         }
     }
