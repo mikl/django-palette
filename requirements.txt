@@ -1,3 +1,4 @@
 Django
 -e git+git://github.com/django-extensions/django-extensions.git#egg=django_extensions
+-e hg+http://bitbucket.org/andrewgodwin/south/#egg=south
 

@@ -80,5 +80,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
 
     'django_extensions',
+    'south',
     'palette',
 )
