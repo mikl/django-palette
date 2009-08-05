@@ -1,0 +1,12 @@
+/* Site-specific CSS */
+
+.palette_list .colour_box {
+  margin-bottom: 0.5em;
+}
+
+.palette_list .colour_box li {
+  float: left;
+  height: 60px;
+}
+
+
