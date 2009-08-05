@@ -1,0 +1,19 @@
+{% extends "site_base.html" %}
+
+{% block main_content %}
+    <ul class="palette_list">
+        {% for palette in palette_list %}
+        <li id="palette_{{ palette.id }}" class="palette">
+            <a class="title grid_4 alpha" href="{% url palette-detail slug=palette.slug %}">{{ palette.title }}</a>
+            <ul class="colour_box grid_8 omega">
+                {% for colour in palette.colour_set.all %}
+                <li title="{{ colour.title }}">#{{ colour.code }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% empty %}
+        <li class="empty-message">No palettes yet.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+

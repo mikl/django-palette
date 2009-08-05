@@ -1,0 +1,24 @@
+{% load i18n %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>{% block head_title %}{% endblock %}{% if site_name %} | {{ site_name }}{% endif %}</title>
+    <link type="text/css" rel="stylesheet" href="{{ MEDIA_URL }}css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="{{ MEDIA_URL }}css/typography.css" />
+    <link type="text/css" rel="stylesheet" href="{{ MEDIA_URL }}css/960.css" />
+    <link type="text/css" rel="stylesheet" href="{{ MEDIA_URL }}css/site.css" />
+</head>
+<body>
+    <div class="container_12">
+        <h1 class="grid_4 prefix_4 suffix_4">Colour Palette</h1>
+
+        <div id="main" class="grid_12">
+            {% block main_content %}Here goes the main content{% endblock %}
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ MEDIA_URL }}js/jquery.js"></script>
+    <script type="text/javascript" src="{{ MEDIA_URL }}js/palette.js"></script>
+</body>
+</html>
+
