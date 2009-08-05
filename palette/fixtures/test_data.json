@@ -1,0 +1,128 @@
+[
+    {
+        "pk": 1, 
+        "model": "palette.palette", 
+        "fields": {
+            "description": "", 
+            "slug": "august-vim-colours", 
+            "title": "August VIM colours"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "palette.palette", 
+        "fields": {
+            "description": "", 
+            "slug": "cerulean-touch", 
+            "title": "Cerulean touch"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "fff4e8", 
+            "title": "Standard background"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "404040", 
+            "title": "Standard text"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "e0e040", 
+            "title": "IncSearch background"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "544060", 
+            "title": "Search foreground"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "f0c0ff", 
+            "title": "Search background"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "f8f8f8", 
+            "title": "Message fg"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 1, 
+            "code": "4040ff", 
+            "title": "Message bg"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 2, 
+            "code": "007BA7", 
+            "title": "Cerulean"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 2, 
+            "code": "01B8DE", 
+            "title": "Sky blue"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 2, 
+            "code": "F7F7F8", 
+            "title": "Shell white"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 2, 
+            "code": "C2C8D1", 
+            "title": "Silver"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "palette.colour", 
+        "fields": {
+            "palette": 2, 
+            "code": "001C26", 
+            "title": "Dark blue"
+        }
+    }
+]
